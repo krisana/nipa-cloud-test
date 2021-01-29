@@ -1,0 +1,19 @@
+{
+  "name": "nipacloudtest",
+  "version": "1.0.0",
+  "description": "Build frontend application that utilize the Nipa.Cloud Nvision's Object Detection API",
+  "main": "index.js",
+  "repository": "https://github.com/krisana/nipa-cloud-test.git",
+  "author": "Krisana Malaseeta",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^10.0.5",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
