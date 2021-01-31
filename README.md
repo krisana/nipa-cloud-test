@@ -8,6 +8,7 @@ yarn install
 
 ### Setup env
 
+create file .env in root project
 ```
 touch .env
 ```
