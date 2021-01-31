@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@nipacloud/nvision": ["@nipacloud/nvision/dist/browser/nvision.js"]
+    }
+  }
+}

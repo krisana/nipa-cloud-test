@@ -1,0 +1,25 @@
+.test {
+  color: red;
+  font-size: 100px;
+}
+
+.code-container {
+  overflow-x: scroll;
+  overflow-y: scroll;
+  max-height: 80vh;
+  height: 100%;
+  background-color: #eeeeee;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.image-preview {
+  width: 100%;
+}
+
+.react-html5-camera-photo {
+  > img,
+  > video {
+    width: 100%;
+  }
+}
