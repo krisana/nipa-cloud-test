@@ -1,12 +1,9 @@
 # Nipa cloud interview test
 
-### How to run this project
+### How to install this project
 
 ```
-
 yarn install
-yarn dev
-
 ```
 
 ### Setup env
@@ -18,4 +15,10 @@ touch .env
 edit file .env add
 ```
 RESTFUL_KEY=YOUR API KEY
+```
+
+### Run the project
+
+```
+yarn dev
 ```
