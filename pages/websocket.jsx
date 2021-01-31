@@ -4,7 +4,7 @@ import { connect } from 'react-redux'
 import Camera from 'react-html5-camera-photo'
 import 'react-html5-camera-photo/build/css/index.css'
 import Layout from '../layouts'
-import Response from '../components/Response'
+import OverlayBox from '../components/OverlayBox'
 
 import {
   onUpload
@@ -32,7 +32,7 @@ function WebSocket(props) {
         </div>
         <div className="col-6">
           <h4>Response</h4>
-          <Response data={props.detectionService} loading={props.loading} />
+          <OverlayBox data={props.detectionService} loading={props.loading} />
         </div>
       </div>
     </Layout>

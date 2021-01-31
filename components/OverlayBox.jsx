@@ -1,7 +1,7 @@
 import React from 'react'
 import Loader from 'react-loader-spinner'
 
-function Response({ data, loading = false }) {
+function OverlayBox({ data, loading = false }) {
   return (
     <div className="code-container">
       {
@@ -26,4 +26,4 @@ function Response({ data, loading = false }) {
   )
 }
 
-export default Response
+export default OverlayBox

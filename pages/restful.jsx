@@ -4,6 +4,7 @@ import { connect } from 'react-redux';
 import Layout from '../layouts'
 import { FilePond, registerPlugin } from 'react-filepond'
 import 'filepond/dist/filepond.min.css'
+import OverlayBox from '../components/OverlayBox'
 
 import FilePondPluginImageExifOrientation from 'filepond-plugin-image-exif-orientation'
 import FilePondPluginImagePreview from 'filepond-plugin-image-preview'
@@ -72,7 +73,7 @@ function Restfull(props) {
         </div>
         <div className="col-6">
           <h4>Response</h4>
-          <Response data={props.detectionService} loading={props.loading} />
+          <OverlayBox data={props.detectionService} loading={props.loading} />
         </div>
       </div>
     </Layout>
